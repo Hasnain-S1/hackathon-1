@@ -13,7 +13,7 @@ I will be using a dataset from kaggle which is linked below. https://www.kaggle.
 
 
 ## Hypothesis and how to validate?
-My hypothesis is how are the markdown promotions impacting the weekly sales? To model the effects of the markdowns between 2010-2012, and to provide recommended actions based on insights drawn and how to improve the retail sales. I will be validating this by cleaning the datasets, merging them and analysing them to prove my hypothesis right and to take further action to support this data. 
+My hypothesis is how are the markdown promotions impacting the weekly sales? I will model the effects of the markdowns between 2010-2012, and provide recommended actions based on insights drawn and how to improve the retail sales. I will be validating this by cleaning the datasets, merging them and analysing them to prove my hypothesis right and to take further action to support this data. 
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
