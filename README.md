@@ -1,12 +1,11 @@
-# Project XYZ
+Retail Data Sales Analysis
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+I will be using a dataset from kaggle which is linked below. https://www.kaggle.com/datasets/manjeetsingh/retaildataset/data
 
 
 ## Business Requirements
@@ -14,7 +13,7 @@
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+My hypothesis is how are weekly sales being affected during holiday times, to model the effects of the markdowns between 2010-2012, and to provide recommended actions based on insights drawn and how to improve the retail sales. I will be validating this by cleaning the datasets, merging them and analysing them to prove my hypothesis right and to take further action to support this data. 
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
