@@ -18,16 +18,24 @@ The data was collected fine, and the processing was not time consuming at all. W
 
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* To meet the business requirements, I employed time-series line charts to visualize sales trends, particularly focusing on the seasonal impact during holidays. The line chart of weekly sales with holiday highlights revealed that sales peaked during the Christmas period. To evaluate the effectiveness of markdowns, I plotted sales with and without markdowns over time, providing clear insight into the markdown’s impact on sales. For store performance comparison, a time-series plot was used to show sales performance across different stores. Lastly, external factors like temperature, fuel prices, and CPI were visualized through time-series plots to observe their influence on sales.
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+Correlation Analysis: Checked the relationship between markdowns and sales to see if markdowns affect sales.
+Time-Series Analysis: Analyzed sales trends over time, focusing on holidays like Christmas.
+Comparative Analysis: Compared sales during holidays versus non-holidays to assess markdown effectiveness.
+Correlation Analysis: Doesn't prove cause and effect, just shows relationships.
+Time-Series Analysis: Can be affected by outliers and might not predict future trends accurately.
+Comparative Analysis: May not account for other factors influencing sales, like weather or local events.
+
+The data analysis was structured starting with Exploratory Data Analysis (EDA) to clean and understand the dataset, identifying key variables like sales and markdowns. Next, Correlation Analysis was used to explore potential relationships between markdowns and sales. Time-Series Analysis followed to examine sales trends over time, particularly focusing on seasonal effects like holidays. Finally, Comparative Analysis was performed to compare sales during holidays versus non-holidays, helping evaluate the effectiveness of markdown promotions. This structure ensured a logical flow, from understanding the data to identifying relationships, observing trends, and comparing key events for actionable insights.
+
+The data had some limitations, particularly the limited time range, as it only goes up to 2013, which restricted long-term trend analysis and forecasting. To address this, I focused on seasonal trends and holiday impacts within the available period. Additionally, missing data and inconsistencies were handled during the data cleaning process to ensure accuracy in the analysis. This allowed me to make meaningful conclusions despite the constraints.
+
+I used generative AI tools such as ChatGPT to assist with ideas by brainstorming potential analysis methods and visualizations, helping me explore different angles for analyzing the data. For design thinking, AI helped refine the flow of analysis and suggested ways to present findings effectively, ensuring clarity and relevance to the business objectives. When it came to code optimization, AI provided guidance on improving efficiency, suggesting alternative code structures, and identifying potential improvements in data handling and visualization techniques. This allowed me to streamline the analysis process and focus on delivering actionable insights.
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
+Based on the dataset and the analysis performed, there were no immediate data privacy issues since the data appears to be aggregated and does not contain any personal identifiers or sensitive customer information. However, there could be bias or fairness issues, particularly if certain store types, regions, or demographics were overrepresented or underrepresented in the data, potentially skewing insights.
 * How did you overcome any legal or societal issues?
 
 
@@ -64,18 +72,5 @@ The data was collected fine, and the processing was not time consuming at all. W
 
 * My sources were https://www.kaggle.com/code/aremoto/retail-sales-forecast, https://www.kaggle.com/code/shubhamsinghgharsele/retail-data-analysis#Analysis-Datewise, and small helps from ChatGPT
 
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
-
-
-## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+## Acknowledgements 
+I would like to thank everyone who provided support with this project which is the whole group.
