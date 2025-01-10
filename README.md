@@ -13,7 +13,7 @@ I will be using a dataset from kaggle which is linked below. https://www.kaggle.
 
 
 ## Hypothesis and how to validate?
-My hypothesis is how are weekly sales being affected during holiday times, to model the effects of the markdowns between 2010-2012, and to provide recommended actions based on insights drawn and how to improve the retail sales. I will be validating this by cleaning the datasets, merging them and analysing them to prove my hypothesis right and to take further action to support this data. 
+My hypothesis is how are the markdown promotions impacting the weekly sales? To model the effects of the markdowns between 2010-2012, and to provide recommended actions based on insights drawn and how to improve the retail sales. I will be validating this by cleaning the datasets, merging them and analysing them to prove my hypothesis right and to take further action to support this data. 
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
@@ -33,11 +33,7 @@ My hypothesis is how are weekly sales being affected during holiday times, to mo
 * Were there any data privacy, bias or fairness issues with the data?
 * How did you overcome any legal or societal issues?
 
-## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+
 
 ## Unfixed Bugs
 * Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
@@ -64,13 +60,12 @@ My hypothesis is how are weekly sales being affected during holiday times, to mo
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* I used Pandas, Numpy, Madplotlib, Seaborn; and I used these libraries to complete this project by being able to plot data into graphs, calculate information and fill in missing values, and I also used Pandas for data manipulation so that the data was easier to interpret.
 
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* My sources were https://www.kaggle.com/code/aremoto/retail-sales-forecast, https://www.kaggle.com/code/shubhamsinghgharsele/retail-data-analysis#Analysis-Datewise, and small helps from ChatGPT
 
 ### Content 
 
