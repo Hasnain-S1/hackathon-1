@@ -36,20 +36,17 @@ I used generative AI tools such as ChatGPT to assist with ideas by brainstorming
 
 ## Ethical considerations
 Based on the dataset and the analysis performed, there were no immediate data privacy issues since the data appears to be aggregated and does not contain any personal identifiers or sensitive customer information. However, there could be bias or fairness issues, particularly if certain store types, regions, or demographics were overrepresented or underrepresented in the data, potentially skewing insights.
-* How did you overcome any legal or societal issues?
+There were no legal issues since the data was aggregated and didn't contain personal information. To address societal fairness, I ensured the data was representative, avoiding bias from specific regions or store types. This helped maintain fairness in the analysis.
 
 
 
 ## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+There were no bugs, nothing not fixed. I recognised gaps in my knowledge when it came to seaborn, and I attempted to fix this by utilising the LMS.
+
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+A challenge I faced was my code for graphs were not working at first, and I overcame these challenges by reading the code line by line and seeing if I made errors; this helped to fix the code as I doublechecked it.
 
-## Deployment
 ### Heroku
 
 * The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
