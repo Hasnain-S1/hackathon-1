@@ -8,17 +8,14 @@ Retail Data Sales Analysis
 I will be using a dataset from kaggle which is linked below. https://www.kaggle.com/datasets/manjeetsingh/retaildataset/data
 
 
-## Business Requirements
-* Describe your business requirements
-
 
 ## Hypothesis and how to validate?
 My hypothesis is how are the markdown promotions impacting the weekly sales? I will model the effects of the markdowns between 2010-2012, and provide recommended actions based on insights drawn and how to improve the retail sales. I will be validating this by cleaning the datasets, merging them and analysing them to prove my hypothesis right and to take further action to support this data. 
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+First, I downloaded and applied the dataset from kaggle into jupyter notebook, I then began checking each dataset for any cluttered, missing data. Once I found if there was any missing data, I then filled this in using the mean and created an additional dataset called 'cleaned_features' dataset. I began basic visualisation in order to meet my objectives and analysed my findings. I used more advanced visualisation such as Plotly to get more insight into the data, specfically when were the promotional markdowns the most effective. Once I found my findings, I wrote in detail about them underneath and then gave a conclusion and next steps, if this project was either to be recreated or to be continued.
+The data was collected fine, and the processing was not time consuming at all. With the missing values in one of the datasets, I chose to fill the missing values. The data was managed fine when analsying the findings and interpretating the graphs.
+
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
